@@ -1,4 +1,5 @@
-const avanca = document.querySelectorAll('.btn-proximo');
+Joao Pedro Silva 2c 02.09.2024
+    const avanca = document.querySelectorAll('.btn-proximo');
 
 avanca.forEach(button => {
     button.addEventListener('click', function(){
