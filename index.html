@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    João Pedro Silva 2C 21.08.2024
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do tesouro perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/por-do-sol.jpg" alt="">
+            <p>Um dia desses, pescando na lagoa perto de casa eu pesquei por acaso uma carta antiga sobre um tesouro escondido. E eu decidi encontra-lo!</p>
+            <button class="btn-proximo" data-proximo="1">Xique-Xique </button>
+            <button class="btn-proximo" data-proximo="2">Salvador</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada em Xique-Xique, subindo uma montanha ao amanhecer para encontrar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo da montanha</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você visita a histórica cidade de Salvador. Na carta, uma das pistas indica que para localizar um tesouro você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar a Chapada Diamantina</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No topo de uma montanha na Chapada Diamantina, você encontra uma antiga inscrição apontando que a próxima pista está
+                localizada em uma igreja em Salvador.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para Salvador
+            </button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/download.jpg" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Preguiçoso...</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nas igrejas de Salvador, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima
+                pista está no Castelo Gracia d'Álvida.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Castelo.
+            </button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando as praias, você encontra uma caverna escondida!! Lá tem uma placa escrita "beco sem saída troxakk".</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No Castelo voce encontra 2 portas abertas</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pela porta que leva pro segunco andar</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pela porta que leva ao porão</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às igrejas, você finalmente encontra a pista. Agora, para o Castelo!!!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da
+                cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p> A porta que leva ao porão era uma armadilha! Mas por sorte voce parou um degrau antes de cair
+                </p>
+            <button class="btn-proximo" data-proximo="12">Subir e tentar a outra porta</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cuscuz.jpg" alt="encontrando um cuzcuz lendário">
+            <p>Subindo a porta do Castelo, Você encontra um altar, e nele tem um cuzcuz lendário!!!
+                este lugar</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
+                que levam à cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
